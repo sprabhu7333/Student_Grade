@@ -14,5 +14,5 @@ public class Subject {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int subId;
 	private String subName;
-	
+	private int totalMarks;
 }
